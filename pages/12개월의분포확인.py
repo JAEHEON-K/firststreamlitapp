@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+st.set_page_config(page_title="12개월의 분포 확인")
+
 
 # Load the dataset
 data_path = 'daily_temp.csv'
